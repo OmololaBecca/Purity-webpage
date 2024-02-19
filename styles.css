@@ -1,0 +1,12 @@
+body{
+    padding:0;
+    margin:0;
+}
+.nav-container{
+background: url("./Assets/Image.png")
+}
+.nav-flex-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
