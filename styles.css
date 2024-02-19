@@ -33,5 +33,17 @@ padding-top:30px;
    height:40px;
    border-radius:20px;
    border:none;
-   
 }
+.welcome-div {
+    margin:50px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:#ffffff;
+}
+.welcome-div p{
+    margin-top: -8px;
+}
+
