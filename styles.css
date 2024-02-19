@@ -5,6 +5,7 @@ body{
 .nav-container{
 background: url("./Assets/Image.png");
 padding-top:30px;
+padding-bottom: 100px;
 }
 .nav-flex-container{
     display:flex;
