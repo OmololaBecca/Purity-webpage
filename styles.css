@@ -3,10 +3,35 @@ body{
     margin:0;
 }
 .nav-container{
-background: url("./Assets/Image.png")
+background: url("./Assets/Image.png");
+padding-top:30px;
 }
 .nav-flex-container{
     display:flex;
     justify-content:center;
     align-items:center;
+    gap:90px;
+}
+.flex-one h3{
+    color:#ffff;
+    font-size:16px;
+}
+.flex-two{
+    display:flex;
+    gap:30px;
+    font-size: 14px;
+}
+.flex-nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffff;
+    gap:5px;
+}
+.flex-three button{
+   width:150px;
+   height:40px;
+   border-radius:20px;
+   border:none;
+   
 }
