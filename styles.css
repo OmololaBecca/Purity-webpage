@@ -12,6 +12,7 @@ padding-bottom: 100px;
     justify-content:center;
     align-items:center;
     gap:90px;
+    flex-wrap:wrap;
 }
 .flex-one h3{
     color:#ffff;
@@ -48,3 +49,44 @@ padding-bottom: 100px;
     margin-top: -8px;
 }
 
+.plain-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-container{
+    width:400px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:30px;
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icon-flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.icon-flex p{
+ width:60px;
+ height:60px;
+ text-align: center;
+ border-radius: 10px;
+ border:2px solid rgb(168, 167, 167);
+}
+.icon-flex p i{
+    text-align: center;
+    font-size:28px;
+    padding:15px;
+    color:rgb(68, 68, 68);
+}
+
+.faint-text{
+    color:rgb(97, 97, 97);
+}
