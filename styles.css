@@ -5,7 +5,7 @@ body{
 .nav-container{
 background: url("./Assets/Image.png");
 padding-top:30px;
-padding-bottom: 100px;
+padding-bottom: 200px;
 }
 .nav-flex-container{
     display:flex;
@@ -37,11 +37,12 @@ padding-bottom: 100px;
    border:none;
 }
 .welcome-div {
-    margin:50px 0px;
+    padding:30px 0px 50px 0px;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap:wrap;
     text-align: center;
     color:#ffffff;
 }
@@ -53,6 +54,8 @@ padding-bottom: 100px;
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-bottom:200px;
+    flex-wrap:wrap;
 }
 
 .form-container{
@@ -60,7 +63,10 @@ padding-bottom: 100px;
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding:20px;
     padding-left:40px;
-    border-radius:25px;  
+    border-radius:25px; 
+    position:absolute;
+    background:#ffff;
+    top:280px; 
 }
 
 .icon-flex{
@@ -125,7 +131,7 @@ label{
 .sign-up-container button{
     width:310px;
     height:40px;
-    background:aqua;
+    background: #4FD1C5;
     color:#ffffff;
     border:none;
     border-radius:10px;
