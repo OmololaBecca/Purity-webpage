@@ -113,3 +113,8 @@ label{
  input::placeholder{
     padding-left:10px;
  }
+ .toggle-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
