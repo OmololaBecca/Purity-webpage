@@ -2,6 +2,7 @@ body{
     padding:0;
     margin:0;
 }
+
 .nav-container{
 background: url("./Assets/Image.png");
 padding-top:30px;
@@ -37,32 +38,7 @@ padding-bottom: 200px;
    border-radius:20px;
    border:none;
 }
-@media(max-width:1000px){
-    .nav-container{
-        padding-top:20px;
-        padding-bottom: 150px;
-        }
-        .nav-flex-container{
-            gap:55px;   
-        }
-        .flex-one h3{
-            font-size:15px;
-        }
-        .flex-two{
-            gap:20px;
-            font-size: 13px;
-        }
-        .flex-nav{
-            gap:4px;
-        }
-        .flex-three button{
-            width:130px;
-            height:40px;
-            border-radius:20px;
-            font-size: 12px;
-           
-         }
-}
+
 .welcome-div {
     padding:30px 0px 50px 0px;
     display:flex;
@@ -81,8 +57,8 @@ padding-bottom: 200px;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-bottom:200px;
     flex-wrap:wrap;
+    
 }
 
 .form-container{
@@ -164,9 +140,41 @@ label{
     border-radius:10px;
 }
 .form-last-text{
-    text-align:center;
+    text-align: center;
 }
 .form-last-text a{
     text-decoration: none;
     color: #4FD1C5;
+}
+.empty-container{
+    padding-bottom: 550px;
+}
+@media(max-width:1000px){
+    .nav-container{
+        padding-top:20px;
+        padding-bottom: 150px;
+        }
+        .nav-flex-container{
+            gap:55px;   
+        }
+        .flex-one h3{
+            font-size:15px;
+        }
+        .flex-two{
+            gap:20px;
+            font-size: 13px;
+        }
+        .flex-nav{
+            gap:4px;
+        }
+        .flex-three button{
+            width:130px;
+            height:40px;
+            border-radius:20px;
+            font-size: 12px;
+         }
+         .empty-container{
+    padding-bottom: 400px;
+}
+        
 }
