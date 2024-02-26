@@ -178,3 +178,15 @@ label{
 }
         
 }
+/* sign-in-styling */
+.sign-in-navs{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:90px;
+    flex-wrap:wrap;
+    
+}
+.sign-in{
+    color:black;
+}
