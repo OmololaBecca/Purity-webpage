@@ -173,7 +173,7 @@ label{
             border-radius:20px;
             font-size: 12px;
          }
-         .empty-container{
+   .empty-container{
     padding-bottom: 400px;
 }
         
@@ -181,12 +181,27 @@ label{
 /* sign-in-styling */
 .sign-in-navs{
     display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:90px;
+    align-items: center;
+    justify-content: center;
     flex-wrap:wrap;
+    gap:20px;
     
 }
 .sign-in{
     color:black;
+}
+.sign-in h3{
+    font-size:13px;
+}
+.flex-two-sign-in{
+    font-size:12px;
+    gap:10px;
+}
+.sign-in-button button{
+    width:120px;
+    height:25px;
+    background: #1A1E32;
+    color:#ffffff;
+    border:none;
+    border-radius:10px;
 }
