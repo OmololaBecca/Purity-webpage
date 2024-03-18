@@ -255,3 +255,13 @@ height:100px;
     text-decoration: none;
     color:#4FD1C5;
 }
+
+/* profile-screen-styling */
+
+.profile-main-flex{
+    display:flex;
+}
+.profile-nav-flex .profile-purity-h3{
+    display:flex;
+    color:red;
+}
