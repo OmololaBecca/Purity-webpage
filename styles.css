@@ -220,12 +220,13 @@ z-index: 999999;
     justify-content: center;
     
 }
-.main-container-flex{
+/* .main-container-flex{
     /* display:flex; */
     /* align-items:center;
-    justify-content: center; */
-   
-}
+    justify-content: center;
+    } */
+
+
 .main-flex-welcome{
 margin-left: 175px;
 margin-top:60px ;
@@ -257,11 +258,22 @@ height:100px;
 }
 
 /* profile-screen-styling */
+.profile-purity-h3{
+    display:flex;
+    gap:10px;
 
-.profile-main-flex{
-    display:flex;
 }
-.profile-nav-flex .profile-purity-h3{
-    display:flex;
-    color:red;
+.favicon-profile{
+    object-fit:contain;
+}
+.profile-purity-h3 h3{
+    font-size: 12px;
+}
+.hr{
+    width:100px;
+}
+
+
+.profile-mini-container p{
+color:red;
 }
