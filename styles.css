@@ -258,6 +258,10 @@ height:100px;
 }
 
 /* profile-screen-styling */
+.profile-nav-flex{
+  margin-left:30px;
+}
+
 .profile-purity-h3{
     display:flex;
     gap:10px;
@@ -272,8 +276,42 @@ height:100px;
 .hr{
     width:100px;
 }
+.profile-mini-container{
+    display:flex;
+    align-items: center;
+    gap:5px;
 
+}
+.profile-mini-container div {
+    width:20px;
+    height:20px;
+    border-radius:100px;
+    background: rgb(254, 254, 254);
+    padding:4px;
+    text-align: center;
+}
 
-.profile-mini-container p{
-color:red;
+.profile-mini-container i{
+    font-size: 15px;
+    color:#4FD1C5;
+}
+.rectangle-box img{
+    position:relative;
+    margin-top:20px;
+}
+.box-text{
+    position: absolute;
+    bottom:-85px;
+    margin-left: 12px;
+}
+
+.box-text div {
+    width:20px;
+    height:20px;
+    border-radius:100px;
+    background: rgb(254, 254, 254);
+    text-align: center;
+    padding:4px;
+    color:#4FD1C5;
+    
 }
