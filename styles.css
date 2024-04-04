@@ -295,14 +295,18 @@ height:100px;
     font-size: 15px;
     color:#4FD1C5;
 }
-.rectangle-box img{
+.docs-rectangle-box{
+    color:#ffff;
+}
+.docs-rectangle-box img{
     position:relative;
     margin-top:20px;
 }
 .box-text{
     position: absolute;
-    bottom:-85px;
+    bottom:-105px;
     margin-left: 12px;
+    line-height: 10px;
 }
 
 .box-text div {
@@ -314,4 +318,10 @@ height:100px;
     padding:4px;
     color:#4FD1C5;
     
+}
+.docs-button{
+    width:180px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
 }
