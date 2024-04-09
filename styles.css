@@ -353,10 +353,33 @@ height:100px;
 }
 .profile-main-flex{
     display:flex;
-    gap:30px;
+    gap:20px;
    
 }
 .dashboard-board-image{
-    width:100vw;
+    width:820px;
     height:200px;
+}
+.profile-dashboard{
+position:relative;
+padding-top: 10px;
+}
+.profile-background-text{
+    position:absolute;
+    top:10px;
+    color:#ffff;
+    font-size: 12px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.profile-background-text{
+    display:flex;
+    gap:400px;
+}
+.profile-text-two{
+    display:flex;
+}
+.profile-input-div input{
+    width:180px;
+    height:30px;
 }
