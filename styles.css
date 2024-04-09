@@ -374,12 +374,44 @@ padding-top: 10px;
 }
 .profile-background-text{
     display:flex;
-    gap:400px;
+    gap:430px;
 }
 .profile-text-two{
     display:flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.profile-input-div{
+position:relative;
+}
+.fa-search{
+    position:absolute;
+    left:7px;
+    bottom:28px;
+    color:grey;
 }
 .profile-input-div input{
-    width:180px;
-    height:30px;
+    width: 170px;
+    height:25px;
+}
+.profile-input-div input::placeholder{
+    font-size: 8px;
+    padding-left: 20px;
+}
+.profile-text-sign-in{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    gap:8px;
+
+}
+.profile-text-icons{
+    margin-top: -20px;
+    display: flex;
+    gap:7px;
+    margin-left: 10px;
 }
