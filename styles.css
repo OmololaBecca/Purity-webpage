@@ -330,7 +330,7 @@ height:100px;
 }
 .box-text{
     position: absolute;
-    bottom:-105px;
+    bottom:-195px;
     margin-left: 12px;
     line-height: 10px;
 }
@@ -350,4 +350,13 @@ height:100px;
     height:40px;
     border-radius: 10px;
     border:none;
+}
+.profile-main-flex{
+    display:flex;
+    gap:30px;
+   
+}
+.dashboard-board-image{
+    width:100vw;
+    height:200px;
 }
