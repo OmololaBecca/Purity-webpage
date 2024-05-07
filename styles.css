@@ -424,27 +424,52 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(15.2px);
 -webkit-backdrop-filter: blur(15.2px);
-border: 1px solid rgba(239, 234, 234, 0.3);
-margin-top: -40px;
-width:780px;
-margin-left: 20px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin-top: -30px;
+width:790px;
+height:70px;
+margin-left: 10px;
 }
 .glass-flex{
     display:flex;
-    gap:300px;
-    padding-top: 10px;
-    margin-left: 10px;
+    gap:330px;
+    margin-left:5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
 }
 .glass-flex-one{
     display:flex;
-    
     align-items: center;
+    justify-content: center;
+    gap:10px;
+
 }
 .glass-flex-one img{
     width:50px;
     height:50px;
     border-radius:5px;
 }
-.name-details span{
-    display:block;
+ .name-details {
+    line-height: 0px;
 }
+.name-details p{
+    font-size:12px;
+    margin-top: -5px;
+}
+
+.glass-flex-two{
+    display:flex;
+    gap:10px;
+}
+
+.glass-flex-two div button{
+    width:80px;
+    height:30px;
+    border-radius:20px;
+    font-size: 7px;
+    border:none;
+}
+.glass-flex-two div button i{
+   margin-right:3px;
+} 
