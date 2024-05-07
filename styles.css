@@ -473,3 +473,20 @@ margin-left: 10px;
 .glass-flex-two div button i{
    margin-right:3px;
 } 
+
+.client-details-main-div{
+    display:flex;
+    margin-top:50px;
+    align-items:center;
+    justify-content: center;
+}
+.client-glass-flex{
+    background: rgba(239, 234, 234, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.2px);
+-webkit-backdrop-filter: blur(15.2px);
+}
+.platform-div p{
+    font-size:12px;
+}
