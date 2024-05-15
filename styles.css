@@ -517,4 +517,16 @@ backdrop-filter: blur(15.2px);
     width:350px;
     height:350px;
     padding-top:10px;
+    font-size: 14px;
+}
+.profile-main-icon-flex{
+    display:flex;
+    margin-top:-13px;
+}
+.profile-icon-flex{
+    display:flex;
+    gap:5px;
+}
+.profile-icon-flex .fab{
+    color:#4FD1C5;
 }
